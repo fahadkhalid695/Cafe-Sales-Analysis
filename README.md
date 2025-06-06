@@ -127,7 +127,7 @@ df.to_csv('cleaned_data.csv', index=True)
 
 ```bash
 git clone https://github.com/fahadkhalid695/Cafe-Sales-Analysis.git
-cd Cafe-Sales-Analysis/Cafe Sales Project/Main Notebook
+cd Cafe-Sales-Analysis/Main Notebook
 ```
 ### 2. Open the Jupyter notebook
 
