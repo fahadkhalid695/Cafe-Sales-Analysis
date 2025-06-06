@@ -154,6 +154,3 @@ cd Cafe-Sales-Analysis/Main Notebook
 [Fahad Khalid](https://www.linkedin.com/in/fahadkhalid695/)
 
 
-###  GitHub
-[Fahad Khalid](https://github.com/fahadkhalid695)
-
