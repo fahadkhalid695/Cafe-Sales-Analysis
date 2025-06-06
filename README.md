@@ -2,7 +2,7 @@
 > This project explores the sales of different menu items using a dataset. We perform data cleaning, Exploratory Data Analysis (EDA) analyze the sales report of the cafe.
 ---
 # Data Description
-The dataset used here is dirty_cafe_sales.csv from **Kaggle**. It contains almost 10 menu items, 10000 records, and 8 columns:
+The dataset used here is [dirty_cafe_sales.csv](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training) from **Kaggle**. It contains almost 10 menu items, 10000 records, and 8 columns:
 
 - **Transaction id**
 - **Item**
@@ -49,9 +49,10 @@ df.info()
 
 We will remove the error values from the dataset. Convert the **Item** column into Category datatype, **Quantity**, **Price Per Unit**, **Total Spent** into float datatype also remove the non-numeric characters.
 
+---
 ## EDA with Plots for important Interpretations
 
-### Step 3: Visualizing the dataset for useful insights
+### 📌 Step 4: Visualizing the dataset for useful insights
 
 In this step, we will make some graphs to get important information about the cafe sales. We are using different plots like:
 
@@ -105,7 +106,7 @@ Box plot reveals transaction patterns and outliers.
 | **Box plot**  | Spending distribution, median, and range for each item       | Identifying popular order sizes and detecting unusual spending pattern
 
 ---
-### Step 4: Save the cleaned dataset
+### 📌 Step 5: Save the cleaned dataset
 
 ``` python
 # Saving the cleaned dataset into csv
@@ -119,14 +120,40 @@ df.to_csv('cleaned_data.csv', index=True)
 - **Coffee** is the most popular item ordered.
 - The cheapest Item on the menu is **cookie**
 
+---
 ## 💻 Run It Yourself
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/fahadkhalid695/Cafe-Sales-Analysis.git
-cd Cafe-Sales-Analysis
+cd Cafe-Sales-Analysis/Cafe Sales Project/Main Notebook
 ```
 ### 2. Open the Jupyter notebook
 
-**cafe-sale.ipynb
+**cafe-sale.ipynb**
+
+---
+## 🧠 Skills Demonstrated
+
+📌 Data Cleaning & EDA
+
+📌 Data Visualization with Matplotlib & Seaborn
+
+📌 Python Libraries: Pandas, NumPy, Scikit-learn
+
+---
+## 📂 Dataset Source
+
+📈 [Cafe Sales](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training)
+
+---
+## 📮 Connect with Me
+
+### 🔗 LinkedIn
+[Fahad Khalid](https://www.linkedin.com/in/fahadkhalid695/)
+
+
+###  GitHub
+[Fahad Khalid](https://github.com/fahadkhalid695)
+
